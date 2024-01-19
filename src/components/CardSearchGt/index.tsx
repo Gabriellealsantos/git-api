@@ -29,7 +29,7 @@ export default function CardSearchGt() {
     return (
         <div className='card-container'>
             <div className='github-card '>
-                <h2>Encontre um perfil Github</h2>
+                <h2>Buscar Perfill</h2>
 
                 <div className='input-container'>
                     <form onSubmit={handleFormSubmit}>

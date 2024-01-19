@@ -1,11 +1,11 @@
-import HomeMain from './routes/HomeMain'
+import Home from './routes/Home'
 
 function App() {
 
 
   return (
     <>
-      <HomeMain />
+      <Home />
     </>
   )
 }

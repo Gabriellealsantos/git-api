@@ -3,15 +3,13 @@
 
 
 :root {
-  --gt-color-bg-primary: #1890FF;
+  --gt-color-bg-primary: #24292E;
   --gt-color-bg-secondary: #FFFFFF;
   --gt-color-bg-tertiary: #E6F7FF;
   --gt-color-bg-fourth: #F5F5F5;
 
   --gt-color-font-primary: #000000;
   --gt-color-font-secondary: #FFFFFF;
-  --gt-color-font-tertiary: #262626;
-  --gt-color-font-fourth: #7E7E7E;
 
 }
 
@@ -31,7 +29,7 @@ a:hover {
 html,
 body {
   min-height: 100vh;
-  background: var(--gt-color-bg-secondary);
+  background: var(--gt-color-bg-primary);
 }
 
 main {

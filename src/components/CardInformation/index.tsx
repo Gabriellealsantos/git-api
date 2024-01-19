@@ -11,7 +11,7 @@ type UserData = {
     followers: number;
     location: string;
     name: string;
-    // Adicione outras propriedades conforme necessário
+
 };
 
 export default function CardInformation({ perfil }: Props) {
@@ -22,7 +22,7 @@ export default function CardInformation({ perfil }: Props) {
     useEffect(() => {
         const fetchData = async () => {
             if (!perfil) {
-                return; // Não faz a requisição se o perfil não estiver definido
+                return;
             }
 
             try {
@@ -66,10 +66,12 @@ export default function CardInformation({ perfil }: Props) {
                     <div className='image-container'>
                         <img src={userData.avatar_url} alt={`${perfil}'s Avatar`} />
                     </div>
-                    
+
                     <div className='info-container'>
                         <h3>Informações</h3>
-                        <p>Perfil: {userData.html_url}</p>
+                        <p>Perfil:  <a href={userData.html_url} target="_blank" rel="noopener noreferrer">
+                            {userData.html_url}
+                        </a></p>
                         <p>Seguidores: {userData.followers}</p>
                         <p>Localidade: {userData.location}</p>
                         <p>Nome: {userData.name}</p>

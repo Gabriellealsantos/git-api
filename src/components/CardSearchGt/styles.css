@@ -7,14 +7,15 @@
 .github-card {
     height: 250px;
     width: 1200px;
-    background-color: var(--gt-color-bg-tertiary);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--gt-color-bg-secondary);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     padding: 30px;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    text-align: center;
     justify-content: center;
     border-radius: 8px;
+    margin-top: 50px;
 }
 
 .input-container {
