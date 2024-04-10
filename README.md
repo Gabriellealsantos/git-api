@@ -1,30 +1,58 @@
-# React + TypeScript + Vite
+<h1 align="center">
+<img src="/src/assets/to_readme/gitImgBranco.svg" width="200" height="200" style="margin-left: 100px;" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+  <p> Project APIGit</p>
+</h1>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+<h1>
+  <img 
+    src="src/assets/to_readme/GIF%2010-04-2024%2011-50-03.gif"
+  />
+</h1>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h2 align="center">
+  <a href="https://git-api-murex.vercel.app" target="_blank">See the site</a>
+</h2>
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## 🧾 About
+
+**Git API** On this platform, I compile my skills, competencies and experiences linked to data integration and manipulation through the GitHub API.
+
+## 🔧 Tools
+
+- [React](https://reactjs.org)
+
+
+## 👨‍💻 How to Setup
+
+```bash
+  # Clone the project
+  $ git clone git@github.com:Gabriellealsantos/git-api.git
+```
+```bash
+  # Enter directory
+  $ cd git-api
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```bash
+  # Install the dependencies, if you use npm
+  $ npm install
+```
+<p align="center">or</p>
+
+```bash
+  # Install the dependencies, if you use yarn
+  $ yarn
+```
+
+## 📝 License
+
+
+This project is not under any specific license. All rights are reserved.
+
+---
+
+<p align="center">Done with 💙 by Gabriel Leal Santos</p>
